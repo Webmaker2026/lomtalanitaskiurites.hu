@@ -1,7 +1,7 @@
 # Kiinduló audit – 2026-09-26
 
 - Branch: `redesign-seo`, kiinduló commit: `2c965f7`; munkafa tiszta. Main, FTP és éles fájlok módosítása tilos.
-- 14 HTML oldal, hiányzó robots/sitemap/Apache konfiguráció. Régi .html és kiterjesztés nélküli linkek nem létező szolgáltatási oldalakra mutatnak.
+- 13 HTML oldal, hiányzó robots/sitemap/Apache konfiguráció. Régi .html és kiterjesztés nélküli linkek nem létező szolgáltatási oldalakra mutatnak.
 - Canonical host az előző redesignban: `https://www.lomtalanitaskiurites.hu`. Megtartjuk. Értékes URL-ekről Search Console adatok nem állnak rendelkezésre; nem feltételezünk forgalmat vagy rangsort.
 - Megőrzendő GA4: `G-L3L5614D8L`, eredetileg elerhetoseg.html. GTM/Ads azonosító nincs a jelenlegi fájlokban. Verification TXT változatlan marad, név és tartalom szerint is.
 - Korábbi cookie-popup.js csak localStorage cookiesAccepted értéket írt, a mérőkódot nem szabályozta. Új, visszavonható hozzájárulás szükséges; az eredeti változat Gitben megmarad.

@@ -1,0 +1,91 @@
+# URL mapping
+
+Canonical host: `https://www.lomtalanitaskiurites.hu`. A forrás a `2c965f7` fájllistája és az első (`aaeb7d4`) mentés belső hivatkozásai. Forgalmi értéket Search Console hozzáférés nélkül nem állítunk.
+
+| Régi URL | Új URL | Művelet |
+|---|---|---|
+| /adatvedelem.html | /adatvedelem.html | 200 megőrzés és újraépítés |
+| /ajanlatkeres.html | /ajanlatkeres.html | 200 megőrzés és újraépítés |
+| /arak.html | /arak.html | 200 megőrzés és újraépítés |
+| /blog.html | /blog.html | 200 megőrzés és újraépítés |
+| /butor-elszallitas/ | /butor-elszallitas/ | 200 megőrzés és újraépítés |
+| /butor-elszallitas/index.html | /butor-elszallitas/ | 301 canonical index |
+| /elerhetoseg.html | /elerhetoseg.html | 200 megőrzés és újraépítés |
+| /galeria.html | /galeria.html | 200 megőrzés és újraépítés |
+| /hagyatek-felszamolas/ | /hagyatek-felszamolas/ | 200 megőrzés és újraépítés |
+| /hagyatek-felszamolas/index.html | /hagyatek-felszamolas/ | 301 canonical index |
+| / | / | 200 megőrzés és újraépítés |
+| /index.html | / | 301 canonical index |
+| /iroda-kiurites/ | /iroda-kiurites/ | 200 megőrzés és újraépítés |
+| /iroda-kiurites/index.html | /iroda-kiurites/ | 301 canonical index |
+| /lakaskiurites-budapest/ | /lakaskiurites-budapest/ | 200 megőrzés és újraépítés |
+| /lakaskiurites-budapest/index.html | /lakaskiurites-budapest/ | 301 canonical index |
+| /lomtalanitas-budapest/ | /lomtalanitas-budapest/ | 200 megőrzés és újraépítés |
+| /lomtalanitas-budapest/index.html | /lomtalanitas-budapest/ | 301 canonical index |
+| /pince-kiurites/ | /pince-kiurites/ | 200 megőrzés és újraépítés |
+| /pince-kiurites/index.html | /pince-kiurites/ | 301 canonical index |
+| /lomtalanitas | /lomtalanitas-budapest/ | 301 közvetlen, régi hivatkozás |
+| /lomtalanitas.html | /lomtalanitas-budapest/ | 301 közvetlen, régi hivatkozás |
+| /lomtalanitas/ | /lomtalanitas-budapest/ | 301 közvetlen, régi hivatkozás |
+| /lakaskiurites | /lakaskiurites-budapest/ | 301 közvetlen, régi hivatkozás |
+| /lakaskiurites.html | /lakaskiurites-budapest/ | 301 közvetlen, régi hivatkozás |
+| /lakaskiurites/ | /lakaskiurites-budapest/ | 301 közvetlen, régi hivatkozás |
+| /munkamenet | /blog.html#lakaskiurites-menete | 301 közvetlen, régi hivatkozás |
+| /munkamenet.html | /blog.html#lakaskiurites-menete | 301 közvetlen, régi hivatkozás |
+| /munkamenet/ | /blog.html#lakaskiurites-menete | 301 közvetlen, régi hivatkozás |
+| /fontos-tudnivalok | /blog.html | 301 közvetlen, régi hivatkozás |
+| /fontos-tudnivalok.html | /blog.html | 301 közvetlen, régi hivatkozás |
+| /fontos-tudnivalok/ | /blog.html | 301 közvetlen, régi hivatkozás |
+| /arak | /arak.html | 301 alias normalizálás |
+| /arak/ | /arak.html | 301 alias normalizálás |
+| /arak.html/ | /arak.html | 301 alias normalizálás |
+| /ajanlatkeres | /ajanlatkeres.html | 301 alias normalizálás |
+| /ajanlatkeres/ | /ajanlatkeres.html | 301 alias normalizálás |
+| /ajanlatkeres.html/ | /ajanlatkeres.html | 301 alias normalizálás |
+| /elerhetoseg | /elerhetoseg.html | 301 alias normalizálás |
+| /elerhetoseg/ | /elerhetoseg.html | 301 alias normalizálás |
+| /elerhetoseg.html/ | /elerhetoseg.html | 301 alias normalizálás |
+| /galeria | /galeria.html | 301 alias normalizálás |
+| /galeria/ | /galeria.html | 301 alias normalizálás |
+| /galeria.html/ | /galeria.html | 301 alias normalizálás |
+| /blog | /blog.html | 301 alias normalizálás |
+| /blog/ | /blog.html | 301 alias normalizálás |
+| /blog.html/ | /blog.html | 301 alias normalizálás |
+| /adatvedelem | /adatvedelem.html | 301 alias normalizálás |
+| /adatvedelem/ | /adatvedelem.html | 301 alias normalizálás |
+| /adatvedelem.html/ | /adatvedelem.html | 301 alias normalizálás |
+| /kep3.webp | /assets/kep3.webp | 301 eredeti képhivatkozás |
+| /kep4.webp | /assets/kiuritott-szoba.webp | 301 eredeti képhivatkozás |
+| /lakas-lomtalanitas.webp | /assets/lakas-lomtalanitas.webp | 301 eredeti képhivatkozás |
+| /lomelszallitas-budapest/ | /lomelszallitas-budapest/ | 200 új tartalom |
+| /hagyateki-lakas-kiurites/ | /hagyateki-lakas-kiurites/ | 200 új tartalom |
+| /padlas-kiurites/ | /padlas-kiurites/ | 200 új tartalom |
+| /garazs-kiurites/ | /garazs-kiurites/ | 200 új tartalom |
+| /haz-kiurites/ | /haz-kiurites/ | 200 új tartalom |
+| /uzlethelyiseg-kiurites/ | /uzlethelyiseg-kiurites/ | 200 új tartalom |
+| /keruletek/ | /keruletek/ | 200 új tartalom |
+| /lomtalanitas-1-kerulet/ | /lomtalanitas-1-kerulet/ | 200 új tartalom |
+| /lomtalanitas-2-kerulet/ | /lomtalanitas-2-kerulet/ | 200 új tartalom |
+| /lomtalanitas-3-kerulet/ | /lomtalanitas-3-kerulet/ | 200 új tartalom |
+| /lomtalanitas-4-kerulet/ | /lomtalanitas-4-kerulet/ | 200 új tartalom |
+| /lomtalanitas-5-kerulet/ | /lomtalanitas-5-kerulet/ | 200 új tartalom |
+| /lomtalanitas-6-kerulet/ | /lomtalanitas-6-kerulet/ | 200 új tartalom |
+| /lomtalanitas-7-kerulet/ | /lomtalanitas-7-kerulet/ | 200 új tartalom |
+| /lomtalanitas-8-kerulet/ | /lomtalanitas-8-kerulet/ | 200 új tartalom |
+| /lomtalanitas-9-kerulet/ | /lomtalanitas-9-kerulet/ | 200 új tartalom |
+| /lomtalanitas-10-kerulet/ | /lomtalanitas-10-kerulet/ | 200 új tartalom |
+| /lomtalanitas-11-kerulet/ | /lomtalanitas-11-kerulet/ | 200 új tartalom |
+| /lomtalanitas-12-kerulet/ | /lomtalanitas-12-kerulet/ | 200 új tartalom |
+| /lomtalanitas-13-kerulet/ | /lomtalanitas-13-kerulet/ | 200 új tartalom |
+| /lomtalanitas-14-kerulet/ | /lomtalanitas-14-kerulet/ | 200 új tartalom |
+| /lomtalanitas-15-kerulet/ | /lomtalanitas-15-kerulet/ | 200 új tartalom |
+| /lomtalanitas-16-kerulet/ | /lomtalanitas-16-kerulet/ | 200 új tartalom |
+| /lomtalanitas-17-kerulet/ | /lomtalanitas-17-kerulet/ | 200 új tartalom |
+| /lomtalanitas-18-kerulet/ | /lomtalanitas-18-kerulet/ | 200 új tartalom |
+| /lomtalanitas-19-kerulet/ | /lomtalanitas-19-kerulet/ | 200 új tartalom |
+| /lomtalanitas-20-kerulet/ | /lomtalanitas-20-kerulet/ | 200 új tartalom |
+| /lomtalanitas-21-kerulet/ | /lomtalanitas-21-kerulet/ | 200 új tartalom |
+| /lomtalanitas-22-kerulet/ | /lomtalanitas-22-kerulet/ | 200 új tartalom |
+| /lomtalanitas-23-kerulet/ | /lomtalanitas-23-kerulet/ | 200 új tartalom |
+
+Minden végleges könyvtároldal záró perjeles. A tényleges könyvtárak perjel nélküli és index.html változatai közvetlen 301-et kapnak a canonical host végleges URL-jére. A http/non-www változatok HTTPS www címre kerülnek; a fenti aliasok eleve teljes canonical célra mutatnak. Query paraméterek megmaradnak, így az UTM és Google Ads kattintási paraméterek nem vesznek el. Ismeretlen URL: valódi 404, nem főoldali redirect. A 404 oldal noindex és nem szerepel a sitemapben.
