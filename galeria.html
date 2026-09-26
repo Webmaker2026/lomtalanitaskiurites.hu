@@ -1,180 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-  <head>
- 
-	  <meta charset="utf-8">
-	  <meta name="description" content="Nézze meg lakáskiürítés galériánkat! Előtte-utána képek valódi helyszínekről Budapesten és környékén. Valós munkáink eredményei, gyors és precíz lomtalanítással.">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b36">
+  <title>Galéria | Lakáskiürítés és lomtalanítás</title>
+  <meta name="description" content="Képek a korábbi weboldal galériájából: berendezett és kiürített szoba. Lakáskiürítés előkészítése és fotós ajánlatkérés Budapesten.">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-   <title>Lakáskiürítés képek | Galéria - Előtte-utána fotók Budapesten</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: '#1d3557',
-              secondary: '#457b9d',
-              accent: '#a8dadc',
-              light: '#f1faee',
-              danger: '#e63946'
-            },
-            fontFamily: {
-              sans: ['Segoe UI', 'sans-serif'],
-              title: ['Bebas Neue', 'cursive']
-            }
-          }
-        }
-      }
-      
-      // JavaScript for Hamburger Menu Toggle
-      function toggleMenu() {
-        const menu = document.getElementById('mobile-menu');
-        menu.classList.toggle('hidden');
-      }
-    </script>
-
-  </head>
-   <body class="bg-light text-gray-800">
-    <!-- HEADER -->
-    <header class="bg-primary text-light py-6 shadow-md">
-      <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-title tracking-wide">Lakáskiürítés - Galéria</h1>
-        <p class="text-xl mt-2">Lomtalanítás, bútor elszállítás, NON-STOP hétvégén is</p>
-        <a href="tel:+36708035257" class="inline-block mt-4 px-6 py-3 text-lg font-bold bg-danger text-white rounded-xl shadow hover:bg-red-700 transition">📞 +36 30 803 5257</a>
-      </div>
-    </header>
-
-      
-<!-- NAVIGATION -->
-<nav class="bg-white shadow-md py-3">
-  <div class="container mx-auto px-4 flex flex-wrap justify-center items-center">
-    <!-- Desktop Menu -->
-    <div class="hidden md:flex gap-8">
-      <a href="./" class="text-primary font-semibold hover:underline">Főoldal</a>
-      <a href="lomtalanitas.html" class="text-primary hover:underline">Lomtalanítás</a>
-      <a href="lakaskiurites.html" class="text-primary hover:underline">Lakáskiürítés</a>
-      <a href="galeria.html" class="text-primary hover:underline">Galéria</a>
-      <a href="ajanlatkeres.html" class="text-primary hover:underline">Ajánlatkérés</a>
-      <a href="blog.html" class="text-primary hover:underline">Blog</a>
-      <a href="arak.html" class="text-primary hover:underline">Árak</a>
-    </div>
-
-    <!-- Hamburger Icon for Mobile -->
-    <div class="md:hidden">
-      <button onclick="toggleMenu()" class="text-primary">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
-    <div class="flex flex-col items-center py-4">
-      <a href="./" class="text-primary py-2">Főoldal</a>
-      <a href="lomtalanitas.html" class="text-primary py-2">Lomtalanítás</a>
-      <a href="lakaskiurites.html" class="text-primary py-2">Lakáskiürítés</a>
-      <a href="galeria.html" class="text-primary py-2">Galéria</a>
-      <a href="ajanlatkeres.html" class="text-primary py-2">Ajánlatkérés</a>
-      <a href="blog.html" class="text-primary py-2">Blog</a>
-      <a href="arak.html" class="text-primary py-2">Árak</a>
-    </div>
-  </div>
-</nav>
-  <!--========================================================
-                            CONTENT
-  =========================================================-->
-
-    <main>        
-
-<section class="py-12 bg-light">
-  <div class="container mx-auto px-4">
-    <div class="text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-8">Lomtalanítás képekben</h2>
-    </div>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <img src="kep3.webp" alt="szoba kiürítése" class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-      <img src="kep4.webp" alt="kiürített szoba" class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-      <img src="harmaskep.webp" alt="egy szoba tele lommal" class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-      <img src="hatos.webp" alt="szoba tele lomokkal" class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-      <img src="kep2.webp" alt="lomok" class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-      <img src="IMG_20250209_145235.jpg" alt="egy szoba ami tele van ruhákkal" class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-    </div>
-  </div>
-</section>
-
-<section class="py-16 bg-primary text-light">
-  <div class="container mx-auto px-4 max-w-2xl">
-    <div class="text-center mb-10">
-      <h2 class="text-3xl md:text-4xl font-bold mb-2">Kapcsolatfelvétel</h2>
-      <p class="text-lg text-accent">Írjon nekünk bizalommal – válaszolunk akár még ma!</p>
-    </div>
-    
-    <form action="https://formsubmit.co/lomtalanitaskiurites@gmail.com" method="POST" class="bg-white rounded-2xl shadow-lg p-8 text-gray-800">
-      <div class="mb-4">
-        <label for="name" class="block font-semibold mb-1">Név</label>
-        <input type="text" id="name" name="name" required
-          class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent">
-      </div>
-
-      <div class="mb-4">
-        <label for="email" class="block font-semibold mb-1">E-mail cím</label>
-        <input type="email" id="email" name="email" required
-          class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent">
-      </div>
-
-      <div class="mb-6">
-        <label for="message" class="block font-semibold mb-1">Üzenet</label>
-        <textarea id="message" name="message" rows="5" required
-          class="w-full px-4 py-2 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-accent"></textarea>
-      </div>
-
-      <button type="submit"
-        class="w-full py-3 bg-danger text-white font-bold rounded-lg shadow hover:bg-red-700 transition duration-300">Küldés</button>
-    </form>
-  </div>
-</section>
-
-
-    </main>
-
-    <!--========================================================
-                            FOOTER
-  =========================================================-->
-<!-- LÁBLÉC -->
-<footer class="bg-primary text-white py-6 mt-12">
-  <div class="container mx-auto px-4 text-center">
-    <div class="space-x-4">
-      <a href="tel:+36708035257" class="text-white font-semibold hover:text-secondary">📞 +36 70 803 5257</a>
-      <span>|</span>
-      <a href="mailto:lomtalanitaskiurites@gmail.com" class="text-white font-semibold hover:text-secondary">📧 lomtalanitaskiurites@gmail.com</a>
-      <p class="text-sm mb-2">&copy; 2025 Lakáskiürítés Budapest | Minden jog fenntartva</p>
-    </div>
-  </div>
-</footer>
-
-<!-- Cookie Popup HTML -->
-<div id="cookieConsent" class="fixed bottom-0 w-full bg-gray-800 text-white text-sm px-4 py-3 flex flex-col md:flex-row justify-between items-center z-50 hidden">
-  <p class="mb-2 md:mb-0">
-    Ez a weboldal sütiket használ a jobb felhasználói élmény érdekében.
-  </p>
-  <a href="adatvedelem.html" class="underline text-blue-400 hover:text-blue-300 ml-4">
-  További információ
-</a>
-  <button id="acceptCookies" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-2 rounded">
-    Elfogadom
-  </button>
-</div>
-
-<!-- Külső JavaScript hivatkozás -->
-<script src="cookie-popup.js"></script>
-  
+  <link rel="canonical" href="https://www.lomtalanitaskiurites.hu/galeria.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="hu_HU">
+  <meta property="og:site_name" content="Lomtalanítás / Kiürítés Budapest">
+  <meta property="og:title" content="Galéria | Lakáskiürítés és lomtalanítás">
+  <meta property="og:description" content="Képek a korábbi weboldal galériájából: berendezett és kiürített szoba. Lakáskiürítés előkészítése és fotós ajánlatkérés Budapesten.">
+  <meta property="og:url" content="https://www.lomtalanitaskiurites.hu/galeria.html">
+  <meta property="og:image" content="https://www.lomtalanitaskiurites.hu/assets/lakas-lomtalanitas.webp">
+  <meta property="og:image:alt" content="Világos, üres lakószoba">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.lomtalanitaskiurites.hu/#vallalkozas","name":"Lomtalanítás Kiürítés","url":"https://www.lomtalanitaskiurites.hu/","telephone":"+36708035257","email":"lomtalanitaskiurites@gmail.com","areaServed":{"@type":"City","name":"Budapest"}},{"@type":"WebPage","@id":"https://www.lomtalanitaskiurites.hu/galeria.html#oldal","url":"https://www.lomtalanitaskiurites.hu/galeria.html","name":"Galéria | Lakáskiürítés és lomtalanítás","description":"Képek a korábbi weboldal galériájából: berendezett és kiürített szoba. Lakáskiürítés előkészítése és fotós ajánlatkérés Budapesten.","inLanguage":"hu"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Főoldal","item":"https://www.lomtalanitaskiurites.hu/"},{"@type":"ListItem","position":2,"name":"Galéria","item":"https://www.lomtalanitaskiurites.hu/galeria.html"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#tartalom">Ugrás a tartalomra</a><header class="site-header"><div class="container navigation"><a class="brand" href="/" aria-label="Lomtalanítás Kiürítés – főoldal"><span class="brand-mark" aria-hidden="true">L<span> / </span>K</span><span>LOMTALANÍTÁS<br>KIÜRÍTÉS <small>BUDAPEST</small></span></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="fo-menu" hidden>Menü <span aria-hidden="true">☰</span></button><nav id="fo-menu" class="nav-links" aria-label="Fő navigáció"><a href="/#szolgaltatasok">Szolgáltatások</a><a href="/arak.html">Árak</a><a href="/keruletek/">Kerületek</a><a href="/elerhetoseg.html">Kapcsolat</a><a class="nav-phone" href="tel:+36708035257">+36 70 803 5257</a></nav></div></header>
+<main id="tartalom">
+<nav class="breadcrumbs container" aria-label="Morzsanavigáció"><a href="/">Főoldal</a><span aria-hidden="true">/</span><span aria-current="page">Galéria</span></nav>
+<section class="page-hero"><div class="container"><p class="eyebrow">Galéria</p><h1>A tárgyak mögött<br>ott a tér.</h1><p class="lead">A korábbi oldalunk galériájából megőrzött felvételek. Minden kiürítés terjedelmét a helyszín és az elvitelre kijelölt tárgyak alapján beszéljük meg.</p><div class="actions"><a class="button" href="tel:+36708035257">Hívás most <span aria-hidden="true">↗</span></a><a class="text-link" href="/ajanlatkeres.html">Kérek árajánlatot <span aria-hidden="true">→</span></a></div></div></section><section class="section"><div class="container gallery"><figure><img src="/assets/kep3.webp" width="1170" height="792" loading="lazy" decoding="async" alt="Berendezett szoba szekrénysorral és ággyal"><figcaption>Berendezett szoba · A korábbi galériából</figcaption></figure><figure><img src="/assets/kiuritott-szoba.webp" width="1440" height="1080" loading="lazy" decoding="async" alt="Kiürített szoba, látható parkettával és ablakkal"><figcaption>Kiürített szoba · A korábbi galériából</figcaption></figure></div></section><section class="section"><div class="container editorial"><div class="section-label">Fotós felmérés</div><div><h2>Mit mutasson meg az ajánlathoz?</h2><p>Egy távoli kép segít áttekinteni a helyiséget, a közeli felvételek pedig a nagyobb tárgyakat mutatják meg. A kihordás útvonalát, a liftet és a lépcsőfordulót is fotózza le. Nem szükséges műtermi minőség: a teljes mennyiség és a megközelítés legyen látható.</p><a href="/ajanlatkeres.html">Küldje el, mit kell elszállítani →</a></div></div></section><section class="cta"><div class="container cta-inner"><div><p class="eyebrow">Kezdjük egy beszélgetéssel</p><h2>Mit kell<br>elszállítani?</h2></div><div><p>Mennyiség, helyszín, időpont.<br>A részleteket együtt pontosítjuk.</p><a class="button light" href="tel:+36708035257">+36 70 803 5257 <span aria-hidden="true">↗</span></a></div></div></section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><a class="footer-brand" href="/">Több hely.<br>Kevesebb teher.</a><p>Lomtalanítás és ingatlankiürítés<br>Budapest mind a 23 kerületében.</p></div><div><h2>Elérhetőség</h2><a class="footer-phone" href="tel:+36708035257">+36 70 803 5257</a><p><a href="mailto:lomtalanitaskiurites@gmail.com">lomtalanitaskiurites@gmail.com</a></p><a href="/ajanlatkeres.html">Ajánlatkérés fotókkal →</a></div><div><h2>Hasznos oldalak</h2><ul><li><a href="/galeria.html">Galéria</a></li><li><a href="/blog.html">Kiürítési útmutató</a></li><li><a href="/adatvedelem.html">Adatvédelem</a></li><li><button class="link-button" type="button" data-consent-settings hidden>Sütibeállítások</button></li></ul></div></div><div class="container footer-bottom"><span>Lomtalanítás / Kiürítés Budapest</span><span>Rakodás · Kihordás · Elszállítás</span></div></footer><a class="mobile-call" href="tel:+36708035257">Hívás most <span>+36 70 803 5257</span></a><aside class="consent" id="cookieConsent" aria-label="Adatvédelmi beállítások" hidden><p><strong>Engedélyezi a látogatottságmérést?</strong><br>Google Analytics csak az engedélyével töltődik be. Választását megjegyezzük. <a href="/adatvedelem.html">Részletek</a></p><div><button type="button" id="rejectCookies">Csak szükséges</button><button type="button" id="acceptCookies">Mérés engedélyezése</button></div></aside><script src="/js/main.js" defer></script><script src="/cookie-popup.js" defer></script>
 </body>
 </html>
